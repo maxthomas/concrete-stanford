@@ -8,7 +8,7 @@ deploy:
   on:
     tags: true
   file:
-    - "eng/concrete-stanford-english-uberjar.jar"
-    - "spa/concrete-stanford-spanish-uberjar.jar"
-    - "zho/concrete-stanford-chinese-uberjar.jar"
+    - "eng/target/concrete-stanford-english-uberjar.jar"
+    - "spa/target/concrete-stanford-spanish-uberjar.jar"
+    - "zho/target/concrete-stanford-chinese-uberjar.jar"
   skip_cleanup: true
