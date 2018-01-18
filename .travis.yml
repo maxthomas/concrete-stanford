@@ -1,7 +1,6 @@
 language: java
 before_deploy:
-  script:
-    - mvn install -DskipTests -B
+  - mvn install -DskipTests -B
 deploy:
   provider: releases
   api_key:
@@ -11,6 +10,4 @@ deploy:
     - eng/concrete-stanford-english-*-uberjar.jar
     - spa/concrete-stanford-spanish-*-uberjar.jar
     - zho/concrete-stanford-chinese-*-uberjar.jar
-  on:
-    tags: true
   skip_cleanup: true
