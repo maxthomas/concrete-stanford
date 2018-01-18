@@ -7,7 +7,7 @@ deploy:
     secure: nhk8A8qL+3dJEMHOoHLJdLipfkitk+RxRAODA4PSj5tDYlNYY3KE9DCOJ4GbnIe9N8nQwirQPVW/Hmhi0iXuEMmrW5j8Xv8cQxC5J9lkURYmxOshwU6AIHf0AcfaKqPjWyIdXI11rfwyX7vAjd9piTEG2IWs4upIui9myG3Jn5kkQ6Mcp3E6ON0itkKeI9gIX8M1XGt3VSKKlQ3XpUdcAknfWOY9a7HKutOU5VD/SyKtftl8DG16TOBDyIz7dEA4nlnAtivKZqeYtp+mhWF78l4Saw0bc5FVyX8yiDG7kXTCikK0QPGMiVB67uzs9heY0lCLSHNFVi7xFFsYHBLlDY0wxXcvXg4tf3vsvMQKEXol7v4mqI51fsqnie9FolQcEW7SO8OZWiddRrGejSdM270YeHDmPi0OCJRRG4qrAsje3JCPze4ex3g0hxDlHEYh9O4DoLR98PCSA0mN1S1wPUPpcvEHugA8axnR6nr8qv7Cep26jvjc2yOpHiP7OKGOe0hssYBq+YdXrEgmqrsc6HaO/dyENj3gm8Ot85qsAXXFabJbrCwg/A0p2r4gGyzg15JS2MAE32pTVXhRTJ0uYzoUN3g4401KxyCcRhlq60Dzs39b3vo0N9Cdm6Fox7tuoJP7ARActt5JZDCAPL2TNKhmQkDsD86I/+3TfSOn6R8=
   file_glob: true
   on:
-    branch: travis-ci
+    tags: true
   file:
     - eng/concrete-stanford-english-*-uberjar.jar
     - spa/concrete-stanford-spanish-*-uberjar.jar
