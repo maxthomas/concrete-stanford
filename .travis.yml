@@ -9,6 +9,6 @@ deploy:
     tags: true
   file:
     - "eng/target/concrete-stanford-english-uberjar.jar"
-    - "spa/target/concrete-stanford-spanish-uberjar.jar"
+    - "esp/target/concrete-stanford-spanish-uberjar.jar"
     - "zho/target/concrete-stanford-chinese-uberjar.jar"
   skip_cleanup: true
