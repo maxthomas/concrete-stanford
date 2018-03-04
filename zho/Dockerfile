@@ -7,7 +7,7 @@ RUN mkdir build
 WORKDIR build
 
 RUN pwd
-COPY ../ .
+COPY . .
 RUN ls -lavh
 
 RUN mvn $MAVEN_CLI_OPTS clean install -DskipTests
