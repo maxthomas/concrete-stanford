@@ -6,7 +6,9 @@ ENV MAVEN_CLI_OPTS "--batch-mode --errors --fail-at-end --show-version"
 RUN mkdir build
 WORKDIR build
 
+RUN pwd
 COPY . .
+RUN ls -lavh
 
 RUN mvn $MAVEN_CLI_OPTS clean install -DskipTests
 
