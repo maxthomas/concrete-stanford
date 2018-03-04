@@ -6,12 +6,7 @@ ENV MAVEN_CLI_OPTS "--batch-mode --errors --fail-at-end --show-version"
 RUN mkdir build
 WORKDIR build
 
-COPY pom.xml .
-COPY base/ base/
-COPY eng/ eng/
-COPY esp/ esp/
-COPY zho/ zho/
-COPY annotate/ annotate/
+COPY . .
 
 RUN mvn $MAVEN_CLI_OPTS clean install -DskipTests
 
