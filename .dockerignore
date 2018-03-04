@@ -1,14 +1,1 @@
-*~
-*.diff
-*.class
-*#
-.classpath
-.project
-.settings
-.*.swp
-*.iml
-*.pyc
-pom.xml.versionsBackup
-xtend-gen/
-*.db
-target/original*.jar
+*/target/
